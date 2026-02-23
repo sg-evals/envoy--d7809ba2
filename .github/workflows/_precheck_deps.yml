@@ -65,4 +65,4 @@ jobs:
         ref: ${{ fromJSON(inputs.request).request.sha }}
         persist-credentials: false
     - name: Dependency Review
-      uses: actions/dependency-review-action@3b139cfc5fae8b618d3eae3675e383bb1769c019  # v4.5.0
+      uses: actions/dependency-review-action@05fe4576374b728f0c523d6a13d64c25081e0803  # v4.8.3
